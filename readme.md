@@ -1,15 +1,19 @@
-#ES6
+# ES6
 
 ## Learning Objectives
 
-- Explain the history of ES and JS
-- Compare/contrast features of ES5 and ES6
-- Explain when to use `var` vs `let` vs `const`
-- Use template literals to interpolate variables and strings
-- Use deconstruction to extract values from objects and arrays
-- Use default parameters and arrow functions
+- **Explain** the history of ES and JS
+- **Compare/contrast** features of ES5 and ES6
+- **Explain** when to use `var` vs `let` vs `const`
+- **Use** template literals to interpolate variables and strings
+- **Use** deconstruction to extract values from objects and arrays
+- **Use** default parameters and arrow functions
 
-## Framing (15 / 15)
+<!-- Timing is tight here.  See what you can cut out.  -->
+
+<!-- 9:00 15 minutes -->
+
+## Framing
 
 Today, we are going to be looking at a new way to write Javascript by playing with some of the new features released in ES6.
 
@@ -38,8 +42,7 @@ Condensed timeline:
 
 Many plugins, frameworks and modules still use ES5, as browser support for
 the new version of the language is [still not universal](http://caniuse.com/#search=es6), but the new syntax and features
-of ES6 are increasingly becoming more and more popular among many open-source projects and in the developer world at large. Also,
-you are very likely to see it pop up in the documentation of some of the technologies we will be using in this course.
+of ES6 are increasingly becoming more and more popular among many open-source projects and in the developer world at large. Also, you are very likely to see it pop up in the documentation of some of the technologies we will be using in this course.
 
 Today is all about exploring some of the [new features](https://github.com/lukehoban/es6features) and getting comfortable with
 the new syntax.
@@ -48,7 +51,9 @@ the new syntax.
 
 ## New Features
 
-### Block Scope (10 / 25)
+<!--9:15 10 minutes -->
+
+### Block Scope
 
 <details>
 <summary>What does the concept of scope refer to in JS?</summary>
@@ -126,13 +131,15 @@ const a = 2;
 var a = 2;
 // throws an error
 ```
-
-### You do: Block Scope Exercises (5 / 30)
+<!--9:25 5 minutes -->
+### You do: Block Scope Exercises
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
-### Default parameters (5 / 35)
+<!--9:30 5 minutes -->
+
+### Default parameters
 
 With ES6, we now have the option add set a default value for any of our functions' parameters.
 
@@ -145,12 +152,16 @@ hello() // Hello, stranger
 hello("Jesse") // Hello, Jesse
 ```
 
-#### You do: Default Parameters Practice (5 / 40)
+<!--9:35 5 minutes -->
+
+#### You do: Default Parameters Practice
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/04-default-parameters.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/05-default-parameters.js
 
-### Destructuring (10 / 50)
+<!--9:40 10 minutes -->
+
+### Destructuring
 
 Destructuring assignment makes it possible to extract data from complex data
 types (arrays and objects) into distinct variables:
@@ -191,221 +202,11 @@ function greetUser ({ name, location })  {
 //You would call both by using: greetUser(user)
 ```
 
-#### You do: Destructuring Practice (10 / 60)
+<!--9:50 10 minutes -->
+
+#### You do: Destructuring Practice
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/06-deconstruction.js
-
-
-## Break (10 / 70)
-
-### Concise Object Properties and Methods (5 / 75)
-
-ES6 allows us to shorten method definitions from:
-
-```js
-var car = {
-  drive: function(){
-    console.log("vroom")
-  }
-}
-```
-
-to
-
-```js
-let car = {
-  drive(){
-    console.log("vroom")
-  }
-}
-```
-
-And for properties where the key is the same as the variable storing the value:
-
-```js
-// es5
-let x = 1
-let y = 2
-let obj = {x:x, y:y}
-
-// vs
-//es6
-
-let obj = {x,y}
-```
-
-#### You do: Concise methods and properties practice (5 / 80)
-
-1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/07-concise-properties-and-methods.js
-
-### Template Literals (5 / 85)
-
-Remember string interpolation from ruby? We've been able to semi-accomplish this
-with string concatenation in javascript:
-
-```js
-var name = "Inigo Montoya"
-var killee = "father"
-var prepareTo = "die"
-
-console.log("Hello. My name is "+ name + ". You killed my " + killee +". Prepare to " + prepareTo)
-```
-
-In ES6, we can interpolate variables using template literal syntax: `\``
-
-```js
-let name = "Inigo Montoya"
-let killee = "father"
-let prepareTo = "die"
-
-console.log(`Hello. My name is ${name}. You killed my ${killee}. Prepare to ${prepareTo}`)
-
-```
-
-#### You do: Template Exercise (5 / 90)
-
-1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/09-templates.js
-
-### Arrow Functions (15 / 105)
-
-Arrow functions are a new shorthand syntax for defining anonymous functions:
-
-```js
-let foods = ["pizza","mac n cheese","lasagna"]
-foods.forEach( food => console.log(`I love ${food}`) )
-
-// vs the old
-
-foods.forEach(function(food){
-  console.log("I love " + food)
-})
-```
-
-If there is more than one argument to the anonymous function, wrap
-them in parens:
-
-```js
-let foods = ["pizza","mac n cheese","lasagna"]
-foods.forEach( (food,i) => console.log(`My #${i} favorite food is ${food}`) )
-```
-
-Arrow functions also have the benefit of not changing the value of `this`:
-
-```js
-var pizza = {
-  temperature: 0,
-  toppings: ["cheese", "ham", "pineapple"],
-  bake() {
-    setInterval(function(){
-      this.temperature++ // doesnt work because this is GLOBAL. The setInterval function belongs to the window object.
-    }, 1000)
-  }
-}
-
-// vs ES6
-
-var pizza = {
-  temperature: 0,
-  toppings: ["cheese", "ham", "pineapple"],
-  bake() {
-    setInterval( () => {
-      this.temperature++
-    }, 1000)
-  }
-}
-```
-
-Additionally, the `return` statement is not needed with single line arrow functions. There is an implicit return.
-
-```js
-let add = (x, y) => x + y
-```
-
-If the function is multi-line, you need to explicitly return:
-
-```js
-let add = (x,y) => {
-  return x + y
-}
-```
-
-Though the single line return can be faked by wrapping the expression in parentheses:
-
-```js
-let add = (x,y) => (
-  x + y
-)
-```
-
-#### You do: Arrow functions (10 / 115)
-
-1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/11-arrow-functions.js
-
-
-## Legacy Browser Support (5 / 120)
-
-Support for ES6 is great! - https://kangax.github.io/compat-table/es6/
-
-If you need to support a legacy browser, check out the following tools:
-- [Traceur](https://github.com/google/traceur-compiler/wiki/Getting-Started)
-- [Babel](https://babeljs.io/)
-
-## Bonus
-
-### Spread operator
-
-The spread operator `...` allows an expression to be expanded into multiple elements.
-
-This is useful for separating an array into individual elements:
-
-```js
-var dimensions = [10, 5, 2];
-var volume = function(height, width, length){
-  return height * width * length;
-}
-volume(...dimensions);
-
-// versus
-
-volume(dimensions[0], dimensions[1], dimensions[2])
-```
-
-This also makes it very easy to create copies of an array in functions where
-mutation occurs:
-
-```js
-var days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
-function reversedDays(arr){
-  return arr.reverse()
-}
-console.log(reversedDays(days))
-// but now days is no longer in order
-console.log(days)
-
-// To deal with this, we can either:
-
-function reversedDays(arr){
-  var newArray = []
-  for(let i = 0; i < arr.length; i++){
-    newArray.push(arr[i])
-  }
-  return newArray.reverse()
-}
-console.log(reversedDays(days))
-console.log(days)
-
-// or... (<- pun)
-
-function reversedDays(arr){
-  return [...arr].reverse()
-}
-console.log(reversedDays(days))
-console.log(days)
-```
-
-#### You do: Spread Practice
-
-1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/03-spread-practice.js
 
 ## Keep Going
 
