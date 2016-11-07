@@ -161,7 +161,7 @@ hello("Jesse") // Hello, Jesse
 
 <!--9:40 10 minutes -->
 
-<!-- Only got to here -->
+<!-- Only got to here and it was 10:10 already --SOOOO MANY QUESTIONS -->
 
 ### Destructuring
 
