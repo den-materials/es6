@@ -161,6 +161,8 @@ hello("Jesse") // Hello, Jesse
 
 <!--9:40 10 minutes -->
 
+<!-- Only got to here -->
+
 ### Destructuring
 
 Destructuring assignment makes it possible to extract data from complex data
