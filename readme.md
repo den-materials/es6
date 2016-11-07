@@ -7,7 +7,7 @@
 - **Explain** when to use `var` vs `let` vs `const`
 - **Use** template literals to interpolate variables and strings
 - **Use** deconstruction to extract values from objects and arrays
-- **Use** default parameters and arrow functions
+- **Use** default parameters
 
 <!-- Timing is tight here.  See what you can cut out.  -->
 
