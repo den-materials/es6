@@ -141,7 +141,7 @@ var a = 2;
 
 ### Default parameters
 
-With ES6, we now have the option add set a default value for any of our functions' parameters.
+With ES6, we now have the option to set a default value for any of our functions' parameters.
 
 ```js
 function hello( name = "stranger"){
