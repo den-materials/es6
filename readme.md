@@ -131,13 +131,13 @@ const a = 2;
 var a = 2;
 // throws an error
 ```
-<!--9:25 5 minutes -->
+<!--9:25 10 minutes -->
 ### You do: Block Scope Exercises
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
-<!--9:30 5 minutes -->
+<!--9:35 5 minutes -->
 
 ### Default parameters
 
@@ -152,14 +152,14 @@ hello() // Hello, stranger
 hello("Jesse") // Hello, Jesse
 ```
 
-<!--9:35 5 minutes -->
+<!--9:40 10 minutes -->
 
 #### You do: Default Parameters Practice
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/04-default-parameters.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/05-default-parameters.js
 
-<!--9:40 10 minutes -->
+<!--9:50 10 minutes -->
 
 <!-- Only got to here and it was 10:10 already --SOOOO MANY QUESTIONS -->
 
@@ -204,7 +204,7 @@ function greetUser ({ name, location })  {
 //You would call both by using: greetUser(user)
 ```
 
-<!--9:50 10 minutes -- Cut this if not enough time-->
+<!--10:00 10 minutes -- Cut this if not enough time-->
 
 #### You do: Destructuring Practice
 
