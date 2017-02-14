@@ -9,9 +9,9 @@
 - **Use** deconstruction to extract values from objects and arrays
 - **Use** default parameters
 
-<!-- Timing is tight here.  See what you can cut out.  -->
+<!-- Timing is tight here. Basically all questions need to go to parking lot. -->
 
-<!-- 9:00 15 minutes -->
+<!-- 9:05 10 minutes -->
 
 ## Framing
 
@@ -204,7 +204,7 @@ function greetUser ({ name, location })  {
 //You would call both by using: greetUser(user)
 ```
 
-<!--9:50 10 minutes -->
+<!--9:50 10 minutes -- Cut this if not enough time-->
 
 #### You do: Destructuring Practice
 
