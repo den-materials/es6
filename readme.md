@@ -51,7 +51,7 @@ the new syntax.
 
 ## New Features
 
-<!--9:15 10 minutes -->
+<!--9:15 <10 minutes -->
 
 ### Block Scope
 
@@ -131,13 +131,13 @@ const a = 2;
 var a = 2;
 // throws an error
 ```
-<!--9:25 10 minutes -->
+<!--9:25 >10 minutes -->
 ### You do: Block Scope Exercises
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
-<!--9:35 5 minutes -->
+<!--9:35 <5 minutes -->
 
 ### Default parameters
 
@@ -152,7 +152,7 @@ hello() // Hello, stranger
 hello("Jesse") // Hello, Jesse
 ```
 
-<!--9:40 10 minutes -->
+<!--9:40 >10 minutes -->
 
 #### You do: Default Parameters Practice
 
