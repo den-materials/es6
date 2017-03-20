@@ -5,7 +5,6 @@
 - **Explain** the history of ES and JS
 - **Compare/contrast** features of ES5 and ES6
 - **Explain** when to use `var` vs `let` vs `const`
-- **Use** template literals to interpolate variables and strings
 - **Use** deconstruction to extract values from objects and arrays
 - **Use** default parameters
 
