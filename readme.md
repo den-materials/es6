@@ -10,6 +10,7 @@
 
 <!-- Timing is tight here. Basically all questions need to go to parking lot. -->
 
+<!--Actually 9:06 -->
 <!-- 9:05 10 minutes -->
 
 ## Framing
@@ -50,6 +51,7 @@ the new syntax.
 
 ## New Features
 
+<!--9:17-->
 <!--9:15 <10 minutes -->
 
 ### Block Scope
@@ -130,12 +132,15 @@ const a = 2;
 var a = 2;
 // throws an error
 ```
+
+<!--Actually 9:22 -->
 <!--9:25 >10 minutes -->
 ### You do: Block Scope Exercises
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
+<!--9:36 -->
 <!--9:35 <5 minutes -->
 
 ### Default parameters
@@ -151,6 +156,7 @@ hello() // Hello, stranger
 hello("Jesse") // Hello, Jesse
 ```
 
+<!--Actually 9:40 (while explaining), 9:41 when exercise started-->
 <!--9:40 >10 minutes -->
 
 #### You do: Default Parameters Practice
@@ -158,9 +164,8 @@ hello("Jesse") // Hello, Jesse
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/04-default-parameters.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/05-default-parameters.js
 
+<!--9:51 -->
 <!--9:50 10 minutes -->
-
-<!-- Only got to here and it was 10:10 already --SOOOO MANY QUESTIONS -->
 
 ### Destructuring
 
@@ -203,11 +208,8 @@ function greetUser ({ name, location })  {
 //You would call both by using: greetUser(user)
 ```
 
-<!--10:00 10 minutes -- Cut this if not enough time-->
-
-#### You do: Destructuring Practice
-
-1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/06-deconstruction.js
+<!--Woah questions!!! We were almost on time, then got bombarded with confusions -->
+<!--Actually 10:06 -->
 
 ## Keep Going
 
