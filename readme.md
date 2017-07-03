@@ -37,6 +37,7 @@ Condensed timeline:
 - ES4 never released, largely due to  political reasons
 - 2009 - ES5 released, what we've been writing so far in class.
 - 2015 - ES6 published releasing a wide set of new features and syntax
+- June, 2016 - ES7 published with features inclusing the `**` exponent operator
 
 #### Why now?
 
@@ -44,8 +45,7 @@ Many plugins, frameworks and modules still use ES5, as browser support for
 the new version of the language is [still not universal](http://caniuse.com/#search=es6), but the new syntax and features
 of ES6 are increasingly becoming more and more popular among many open-source projects and in the developer world at large. Also, you are very likely to see it pop up in the documentation of some of the technologies we will be using in this course.
 
-Today is all about exploring some of the [new features](https://github.com/lukehoban/es6features) and getting comfortable with
-the new syntax.
+Today is all about exploring some of the [new features](https://github.com/lukehoban/es6features) and getting comfortable with the new syntax.
 
 > For more backstory, we recommend checking out [this talk](https://www.youtube.com/watch?v=PlmsweSNhTw) from Brendan Eich on what he views as the future of JS.
 
