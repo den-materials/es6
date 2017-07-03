@@ -11,6 +11,7 @@
 <!-- Timing is tight here. Basically all questions need to go to parking lot. -->
 
 <!--Actually 9:06 -->
+<!--WDI4 9:06 -->
 <!-- 9:05 10 minutes -->
 
 ## Framing
@@ -37,7 +38,7 @@ Condensed timeline:
 - ES4 never released, largely due to  political reasons
 - 2009 - ES5 released, what we've been writing so far in class.
 - 2015 - ES6 published releasing a wide set of new features and syntax
-- June, 2016 - ES7 published with features inclusing the `**` exponent operator
+- June, 2016 - ES7 published with features including the `**` exponent operator
 
 #### Why now?
 
@@ -51,6 +52,7 @@ Today is all about exploring some of the [new features](https://github.com/lukeh
 
 ## New Features
 
+<!--WDI4 9:17-->
 <!--9:17-->
 <!--9:15 <10 minutes -->
 
@@ -134,6 +136,7 @@ var a = 2;
 ```
 
 <!--Actually 9:22 -->
+<!--WDI4 9:25 -->
 <!--9:25 >10 minutes -->
 ### You do: Block Scope Exercises
 
@@ -157,6 +160,7 @@ hello("Jesse") // Hello, Jesse
 ```
 
 <!--Actually 9:40 (while explaining), 9:41 when exercise started-->
+<!--WDI4 9:39 turning over to devs -->
 <!--9:40 >10 minutes -->
 
 #### You do: Default Parameters Practice
@@ -210,6 +214,7 @@ function greetUser ({ name, location })  {
 
 <!--Woah questions!!! We were almost on time, then got bombarded with confusions -->
 <!--Actually 10:06 -->
+<!--WDI4 10:00-->
 
 ## Keep Going
 
