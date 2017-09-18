@@ -10,6 +10,7 @@
 
 <!-- Timing is tight here. Basically all questions need to go to parking lot. -->
 
+<!--WDI5 9:03 -->
 <!--Actually 9:06 -->
 <!--WDI4 9:06 -->
 <!-- 9:05 10 minutes -->
@@ -52,6 +53,7 @@ Today is all about exploring some of the [new features](https://github.com/lukeh
 
 ## New Features
 
+<!--WDI5 9:16 -->
 <!--WDI4 9:17-->
 <!--9:17-->
 <!--9:15 <10 minutes -->
@@ -135,6 +137,7 @@ var a = 2;
 // throws an error
 ```
 
+<!--WDI5 9:23 -->
 <!--Actually 9:22 -->
 <!--WDI4 9:25 -->
 <!--9:25 >10 minutes -->
@@ -143,6 +146,7 @@ var a = 2;
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
+<!--WDI5 9:31 -->
 <!--9:36 -->
 <!--9:35 <5 minutes -->
 
@@ -159,6 +163,7 @@ hello() // Hello, stranger
 hello("Jesse") // Hello, Jesse
 ```
 
+<!--WDI5 9:38 -->
 <!--Actually 9:40 (while explaining), 9:41 when exercise started-->
 <!--WDI4 9:39 turning over to devs -->
 <!--9:40 >10 minutes -->
@@ -168,6 +173,7 @@ hello("Jesse") // Hello, Jesse
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/04-default-parameters.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/05-default-parameters.js
 
+<!--WDI5 9:46, but 9:48 after describing es5 way to get around function scoping issue -->
 <!--9:51 -->
 <!--9:50 10 minutes -->
 
@@ -225,6 +231,8 @@ There are lots more features of ES6 that we have not covered:
 - [Generators](https://davidwalsh.name/es6-generators)
 - [Proxies](https://ponyfoo.com/articles/es6-proxies-in-depth)
 - [Reflection and meta-programming](http://www.2ality.com/2011/01/reflection-and-meta-programming-in.html)
+
+<!--WDI5 9:58 -->
 
 ## Resources
 
