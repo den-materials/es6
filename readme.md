@@ -10,6 +10,7 @@
 
 <!-- Timing is tight here. Basically all questions need to go to parking lot. -->
 
+<!--WDI6 9:03 -->
 <!--WDI5 9:03 -->
 <!--Actually 9:06 -->
 <!--WDI4 9:06 -->
@@ -138,14 +139,16 @@ var a = 2;
 ```
 
 <!--WDI5 9:23 -->
+<!--WDI6 9:24 -->
 <!--Actually 9:22 -->
 <!--WDI4 9:25 -->
 <!--9:25 >10 minutes -->
-### You do: Block Scope Exercises
+### You do: Let and Const Exercises
 
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/01-var-let-const.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/02-const-complex.js
 
+<!--WDI6 9:36 -->
 <!--WDI5 9:31 -->
 <!--9:36 -->
 <!--9:35 <5 minutes -->
@@ -166,6 +169,7 @@ hello("Jesse") // Hello, Jesse
 <!--WDI5 9:38 -->
 <!--Actually 9:40 (while explaining), 9:41 when exercise started-->
 <!--WDI4 9:39 turning over to devs -->
+<!--WDI6 9:40 -->
 <!--9:40 >10 minutes -->
 
 #### You do: Default Parameters Practice
@@ -173,6 +177,7 @@ hello("Jesse") // Hello, Jesse
 1. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/04-default-parameters.js
 2. https://github.com/ga-wdi-exercises/es6-exercises/blob/master/05-default-parameters.js
 
+<!--WDI6 9:50 -->
 <!--WDI5 9:46, but 9:48 after describing es5 way to get around function scoping issue -->
 <!--9:51 -->
 <!--9:50 10 minutes -->
@@ -233,6 +238,7 @@ There are lots more features of ES6 that we have not covered:
 - [Reflection and meta-programming](http://www.2ality.com/2011/01/reflection-and-meta-programming-in.html)
 
 <!--WDI5 9:58 -->
+<!--WDI6 9:58 -->
 
 ## Resources
 
